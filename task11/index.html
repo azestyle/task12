@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>innoway</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="menu-header" id="menuHeader">
+      <div class="container">
+        <nav class="main-menu">
+          <div class="menu-logo">
+            <a href="https://innoway.az/"
+              ><img
+                src="https://innoway.az/assets/images/logo-light.png"
+                width="170px"
+                alt="InnoWAY"
+            /></a>
+          </div>
+          <div class="menu-list">
+            <ul class="main-menu_list">
+              <li><a href="#">Haqqımızda</a></li>
+              <li class="dropdown">
+                <a href="#">Tədris istiqamətləri </a>
+                <ul class="menu-dropdown">
+                  <li><a href="#">Backend proqramlaşdırma</a></li>
+                  <li><a href="#">Elektronika mühəndisliyi</a></li>
+                  <li><a href="#">STM32 programlaşdırma</a></li>
+                  <li><a href="#">Frontend programlaşdırma</a></li>
+                  <li><a href="#">Ardunio programlaşdırma</a></li>
+                  <li><a href="#">Mobil programlaşdırma</a></li>
+                  <li><a href="#">Dron texnologiyası</a></li>
+                  <li><a href="#">Kiber təhlükəsizlik</a></li>
+                  <li><a href="#">3D Dizayn(Solid Works)</a></li>
+                  <li><a href="#">Məktəbli elektronikası</a></li>
+                  <li><a href="#">Ardunio kids</a></li>
+                </ul>
+              </li>
+              <li><a href="http://">Bloq</a></li>
+              <li><a href="http://">Əlaqə</a></li>
+            </ul>
+          </div>
+          <div class="apply button">
+            <button class="menu-button">Müraciət et</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="bodier">
+      <div class="container">
+        <div class="bodier-left">
+          <div class="bodier-write">
+            <h1>uğurlu səyahətin başladığı ünvan</h1>
+            <p style="font-family: Poppins">
+              INNOWAY - elektronika və kompüter elmlərinin müxtəlif
+              istiqamətlərinin (Hardware, Software) birləşdiyi məkandır.
+              Karyeranızı peşəkar mühəndislərimizə etibar edin. Gələcəyinizin
+              müəllifi özünüz olun.
+            </p>
+            <div class="bodier-ring-big"></div>
+            <div class="bodier-ring-medium">
+              <div class="rotate-ring"></div>
+              <div class="animated-arrow">
+                <img
+                  src="https://innoway.az/assets/images/shapes/banner-1-shape-1.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="bodier-button">
+            <button class="button1" style="font-family: Poppins">
+              Müraciət et<i
+                class="fa-solid fa-arrow-right fa-sm"
+                style="color: #ffffff; margin-left: 5px"
+              ></i>
+            </button>
+            <button class="button2" style="font-family: Poppins">
+              İstiqamətlərimiz<i
+                class="fa-solid fa-arrow-right fa-sm"
+                style="color: #ffffff; margin-left: 5px"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div class="bodier-fotoage">
+          <div class="img-background">
+            <img
+              src="https://innoway.az/assets/images/Others/53e6406b-b8c7-4a4f-ad83-1d21109a8fff.webp"
+              alt=""
+            />
+          </div>
+          <div class="videobutton-confuqrate">
+            <button class="video-button" onclick="play()">
+              <i
+                class="fa-solid fa-play fa-2xl"
+                style="color: #74c0fc"
+                id="choose"
+              ></i>
+            </button>
+          </div>
+          <video
+            src="https://www.youtube.com/watch?v=kdvNk5wzrrE"
+            id="innoway"
+            width="500px"
+            height="500px"
+          ></video>
+          <div class="bodierhead-cup">
+            <img
+              src="https://innoway.az/assets/images/shapes/banner-cap.webp"
+              alt=""
+            />
+          </div>
+          <div class="bodier-ball">
+            <img
+              src="https://innoway.az/assets/images/shapes/banner-map.webp"
+              alt=""
+            />
+          </div>
+          <div class="bodier-book">
+            <img
+              src="https://innoway.az/assets/images/shapes/banner-book.webp"
+              alt=""
+            />
+          </div>
+          <div class="bodier-star">
+            <img
+              src="https://innoway.az/assets/images/shapes/banner-star.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section2">
+        <div class="section-img">
+          <img
+            class="spin"
+            src="https://innoway.az/assets/images/shapes/about-shape-1-1.webp"
+            alt=""
+          />
+          <img
+            src="https://innoway.az/assets/images/Others/591a7a76-b028-43e7-b375-4d9bb3a227ab.webp"
+            alt=""
+          />
+          <img
+            class="slide-left-right"
+            src="https://innoway.az/assets/images/shapes/about-shape-1-2.webp"
+            alt=""
+          />
+          <div class="grow-shrink"></div>
+          <div class="section2-contact">
+            <div class="section2-writer">
+              <h4 style="font-family: Poppins">İndi əlaqə saxla</h4>
+              <p style="font-family: Poppins">+994517747616</p>
+            </div>
+            <div class="section2-icon">
+              <img src="images-removebg-preview.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="section2-leftwriter">
+          <div class="section2-leftsize">
+            <div class="writer3group">
+              <h5 style="font-family: Poppins">Haqqımızda</h5>
+              <h2 style="font-family: Poppins">
+                INNOWAY - elektronika və kompüter elmlərinin (Hardware,
+                Software) birləşdiyi məkandır.
+              </h2>
+              <p style="font-family: Poppins">
+                Tədris prosesini ən müasir təlim proqramı üzrə həyata keçirən,
+                tam təchizatlı laboratoriyalara sahib təlim mərkəzi – INNOWAY
+                sizi salamlayır.
+              </p>
+            </div>
+            <div class="div-informationgroup">
+              <div class="onformationbox">
+                <div class="boxicon">
+                  <img
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHNVjCfJmpuaI8KMzEjRchLDA7G2u7youSkz6358yMRrMLwg4w"
+                    alt=""
+                  />
+                </div>
+                <div class="boxwriter">
+                  <h4 class="boxwriterh" style="font-family: Poppins">
+                    Müəllimlər
+                  </h4>
+                  <p class="boxwriterp" style="font-family: Poppins">
+                    INNOWAY – də tədris prosesi təcrübəsi kadrların rəhbərliyi
+                    altında təşkil olunur.
+                  </p>
+                </div>
+              </div>
+              <div class="onformationbox">
+                <div class="boxicon">
+                  <img
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrRp2bQ6KAmNsMqgzGAXIcXtkzz9plM3MA5iNtFDG4uwigfKiW"
+                    alt=""
+                  />
+                </div>
+                <div class="boxwriter">
+                  <h4 class="boxwriterh" style="font-family: Poppins">
+                    Laboratoriya
+                  </h4>
+                  <p class="boxwriterp" style="font-family: Poppins">
+                    Müasir elektronika qurğuları ilə təchiz olunmuş elektronika
+                    laboratoriyası və proqramlaşdırma üçün ideal dərs mühiti.
+                  </p>
+                </div>
+              </div>
+              <div class="onformationbox">
+                <div class="boxicon">
+                  <img
+                    src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStIKR7bg0MRw5B5TqD1QCMXe7fCLRzLX3Guwem6LWXeAL1NbRw"
+                    alt=""
+                  />
+                </div>
+                <div class="boxwriter">
+                  <h4 class="boxwriterh" style="font-family: Poppins">
+                    Güncəl tədris proqramı
+                  </h4>
+                  <p class="boxwriterp" style="font-family: Poppins">
+                    Dövrün tələblərinə cavab verən tədris proqramı.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="section2-button">
+              <p style="font-family: Poppins">Daha çox</p>
+              <span style="margin-left: 5px; margin-top: 6px"
+                ><i
+                  class="fa-solid fa-arrow-right fa-lg"
+                  style="color: #fafafa"
+                ></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section3">
+        <div class="writer">
+          <h2 style="font-family: Poppins">Kateqoriyalar</h2>
+          <p style="font-family: Poppins">Öyrənmək üçün ən sevilən mövzular</p>
+        </div>
+      </div>
+    </div>
+    <div class="fake-body">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+
+          <div class="boxgroup first">
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/f0d143df-be44-4ff9-b7a2-3ae55843d8aa.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/f0d143df-be44-4ff9-b7a2-3ae55843d8aa.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Dron texnalogiyası</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/caaef207-aa55-4b70-9f4a-94bc6aebb5fd.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/caaef207-aa55-4b70-9f4a-94bc6aebb5fd.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Back-End Programlaşdırma</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/6d6fdc95-cd6f-4021-955f-5219a1ff00df.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/6d6fdc95-cd6f-4021-955f-5219a1ff00df.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Front-End Programlaşdırma</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/277ce7e0-1145-4ee4-9f12-100090a88afd.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/277ce7e0-1145-4ee4-9f12-100090a88afd.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Mobil Programlaşdırma</p>
+            </div>
+          </div>
+          <div class="boxgroup">
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/f0d143df-be44-4ff9-b7a2-3ae55843d8aa.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/f0d143df-be44-4ff9-b7a2-3ae55843d8aa.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Dron texnalogiyası</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/caaef207-aa55-4b70-9f4a-94bc6aebb5fd.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/caaef207-aa55-4b70-9f4a-94bc6aebb5fd.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Back-End Programlaşdırma</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/6d6fdc95-cd6f-4021-955f-5219a1ff00df.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/6d6fdc95-cd6f-4021-955f-5219a1ff00df.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Front-End Programlaşdırma</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/277ce7e0-1145-4ee4-9f12-100090a88afd.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/277ce7e0-1145-4ee4-9f12-100090a88afd.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Mobil Programlaşdırma</p>
+            </div>
+          </div>
+          <div class="boxgroup">
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/f0d143df-be44-4ff9-b7a2-3ae55843d8aa.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/f0d143df-be44-4ff9-b7a2-3ae55843d8aa.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Dron texnalogiyası</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/caaef207-aa55-4b70-9f4a-94bc6aebb5fd.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/caaef207-aa55-4b70-9f4a-94bc6aebb5fd.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Back-End Programlaşdırma</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/6d6fdc95-cd6f-4021-955f-5219a1ff00df.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/6d6fdc95-cd6f-4021-955f-5219a1ff00df.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Front-End Programlaşdırma</p>
+            </div>
+            <div class="boxmodel">
+              <img
+                src="https://innoway.az/assets/images/Categories/277ce7e0-1145-4ee4-9f12-100090a88afd.webp.webp"
+                alt=""
+              />
+              <img
+                src="https://innoway.az/assets/images/Categories/277ce7e0-1145-4ee4-9f12-100090a88afd.webp.webp"
+                alt=""
+              />
+              <p style="font-family: Poppins">Mobil Programlaşdırma</p>
+            </div>
+          </div>
+
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+    <!-- section3 -->
+
+    <div class="container">
+      <div class="section3-body">
+        <div class="section3-header"><h2>Kurslarımız</h2></div>
+
+        <div class="section3-imager">
+          <div class="little-imager">
+            <div class="little-box">
+              <p>144 saat</p>
+              <div class="litte-box-writer">
+                <p>46 DƏRS</p>
+                <p>Peşəkar Ardunio Təlimi</p>
+                <div class="inline"></div>
+              </div>
+              <div class="litlle-teacher">
+                <img
+                  src="https://innoway.az/assets/images/Teachers/nizami-kelbeliyev.webp"
+                  alt=""
+                />
+                <div class="teacher-name">
+                  <p>Nizami Kəlbəliyev</p>
+                  <p>SOFWARE ENGINEER (ARDUNIO)</p>
+                </div>
+              </div>
+            </div>
+            <div class="header-imager">
+              <img
+                src="https://innoway.az/assets/images/Courses/arduino.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="medium-imager">
+            <div class="medium-box">
+              <p>200 saat</p>
+
+              <div class="medium-box-writer">
+                <p>84 DƏRS</p>
+                <p>Backend Programlaşdırma</p>
+                <div class="inlines"></div>
+              </div>
+              <div class="medium-teacher-group">
+                <div class="litlle-teacher">
+                  <img
+                    src="https://innoway.az/assets/images/Teachers/kamran-cebiyev.webp"
+                    alt=""
+                  />
+                  <div class="teacher-name">
+                    <p>Kamran Cəbiyev</p>
+                    <p>FULLSTACK WEB DEVELOPER</p>
+                  </div>
+                </div>
+                <div class="litlle-teacher">
+                  <img
+                    src="https://innoway.az/assets/images/Teachers/ehed-tagiyev.webp"
+                    alt=""
+                  />
+                  <div class="teacher-name">
+                    <p>Əhəd Tağıyev</p>
+                    <p>WEB DEVELOPER (BACKEND)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="medium-header-imager">
+              <img
+                src="https://innoway.az/assets/images/Courses/backendlesson.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="little-imager">
+            <div class="little-box">
+              <p>200 saat</p>
+              <div class="litte-box-writer" style="width: 290px">
+                <p>72 DƏRS</p>
+                <p>Frontend Programlaşdırma</p>
+                <div class="inline"></div>
+              </div>
+              <div class="litlle-teacher">
+                <img
+                  src="https://innoway.az/assets/images/Teachers/rail-cennetov.webp"
+                  alt=""
+                />
+                <div class="teacher-name">
+                  <p>Rail Cənnətov</p>
+                  <p>FRONTEND DEVELOPER</p>
+                </div>
+              </div>
+            </div>
+            <div class="header-imager">
+              <img
+                src="https://innoway.az/assets/images/Courses/frontendlesson.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="section3-btn"><p>Daha çox</p></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sctn4-fakebody">
+        <div class="section4-slider">
+          <div class="section4-slides">
+            <!-- radio button start -->
+            <input type="radio" name="sctn4-btn" id="radios1" />
+            <input type="radio" name="sctn4-btn" id="radios2" />
+            <!-- radio button end -->
+            <div class="section4-writer-one killer">
+              <i class="fa fa-quote-left fa-2x mb-3" aria-hidden="true"></i>
+              <p>
+                2021-dən elektronikaya öyrənməyə başladım və uzun müddət peşəkar
+                elektronika müəllimi axtardım. Mənə Namiq müəllimi və "Innoway"
+                kursunu məsləhət gördülər. Kursa qatıldıqdan sonra gözlədiyimdən
+                də yüksək səviyyə ilə qarşılaşdım. Azərbaycanda son illərdə
+                elektronika üzrə təlim kursları artsa da, "Innoway"ın digər
+                kurslardan üstün cəhətləri çoxdur. Peşəkar müəllimlər, səmimi
+                kollektiv, real təcrübələr, dərslərin keçirilmə metodikası,
+                professional yanaşma və limitsiz dəstək ilə "Innoway" mükəmməl
+                tədris təqdim edir. Doğru yerdə olduğumu hiss edirəm və başda
+                Namiq müəllim olmaqla "Innoway" ailəsinə təşəkkür edirəm.
+              </p>
+              <div class="sctn4-student">
+                <img
+                  src="https://innoway.az/assets/images/Testimonials/rustemov-aqshin.webp"
+                  alt=""
+                />
+                <div class="sctn4-stundentid">
+                  <p>Rütəmov Aqşin</p>
+                  <p>Elektronika mühəndisi</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="section4-writer-one">
+              <i class="fa fa-quote-left fa-2x mb-3" aria-hidden="true"></i>
+              <p>
+                Elektronika sahəsinə marağım məni Namiq müəllimə və "Innoway"a
+                yönəltdi. Namiq müəllimlə tanışlıqdan sonra bu sahəyə olan
+                marağım daha da artdı. O, işinin peşəkarı olmaqla yanaşı,
+                gəncləri inkişaf etdirməyə həvəslə çalışan biridir. Dərslərin
+                təşkili, öyrətmə bacarığı, səmimi kollektiv və inkişafa olan
+                dəstəyi gördükdə "Innoway"ı seçməklə necə doğru qərar verdiyimi
+                anladım. Dərslər real təcrübələr əsasında aparılır və hər
+                dəqiqəsi nəsə öyrədir. Nəticəyönümlü olduğu üçün artıq öz
+                layihələrimi müstəqil şəkildə işləyirəm. "Innoway" inkişaf üçün
+                əsl utopiyadır. Qazandırdığı bilik və təcrübələrə görə başda
+                Namiq müəllim olmaqla bütün "Innoway" ailəsinə təşəkkür edirəm.
+              </p>
+              <div class="sctn4-student">
+                <img
+                  src="https://innoway.az/assets/images/Testimonials/test.webp"
+                  alt=""
+                />
+                <div class="sctn4-stundentid">
+                  <p>Ağayev Şübeyr</p>
+                  <p>Elektronika mühəndisi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- manual button start -->
+          <div class="sctn4-manual">
+            <label for="radios1" class="sctn4-manual-btn"></label>
+            <label for="radios2" class="sctn4-manual-btn"></label>
+          </div>
+          <!-- manual button end -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
